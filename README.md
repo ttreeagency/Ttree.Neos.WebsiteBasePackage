@@ -9,6 +9,7 @@ This is the [ttree](http://ttree.ch) base package for Neos Site Package.
   * Saas Mixin Library [Bourbon.io](http://bourbon.io/) + [Bitters](http://bitters.bourbon.io/)
   * Semantic Grid Framework [Neat](http://neat.bourbon.io/)
   * Documentation System for Style Guides [Hologram](http://trulia.github.io/hologram/) + [Cortana](https://github.com/Yago/Cortana) Theme
+  * Default Page Template [HTML5 ★ BOILERPLATE](http://html5boilerplate.com/)
   * Package Manager [Bower](http://bower.io/)
   * JS Task Runner [Grunt](http://gruntjs.com/)
 
