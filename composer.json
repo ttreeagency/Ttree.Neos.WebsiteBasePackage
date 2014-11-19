@@ -1,0 +1,14 @@
+{
+    "name": "ttree/neos-websitebasepackage",
+    "type": "typo3-flow-site",
+    "description": "",
+    "require": {
+        "ttree/oembed": "*",
+        "ttree/plugin-googlemap": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ttree\\Neos\\WebsiteBasePackage": "Classes"
+        }
+    }
+}
