@@ -44,8 +44,6 @@ module.exports = function (grunt) {
 				src: [
 					'Resources/Public/Vendors/jquery/dist/jquery.js',
 					'Resources/Public/Vendors/fastclick/lib/fastclick.js',
-					'Resources/Public/Scripts/Organisms/Navigation.js',
-					'Resources/Public/Scripts/Organisms/ScrollableArticle.js',
 					'Resources/Public/Scripts/Site.js'
 				],
 				dest: 'Resources/Public/Scripts/Build/All.js'
@@ -64,7 +62,8 @@ module.exports = function (grunt) {
 		uglify: {
 			site: {
 				files: {
-					'Resources/Public/Scripts/Build/All.min.js': ['Resources/Public/Scripts/Build/All.js']
+					'Resources/Public/Scripts/Build/All.min.js': ['Resources/Public/Scripts/Build/All.js'],
+					'Resources/Public/Scripts/Build/Modernizr.min.js': ['Resources/Public/Vendors/modernizr/modernizr.js']
 				}
 			}
 		},

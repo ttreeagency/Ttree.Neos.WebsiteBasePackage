@@ -1,7 +1,9 @@
 
 // Globals
 @import "Plugins/Normalize";
-@import "Plugins/Plugins";
+@import "Plugins/bourbon/bourbon";
+@import "Plugins/base/base";
+@import "Plugins/neat/neat";
 
 // Atoms
 
@@ -10,9 +12,8 @@
 
 
 // Organisms
-@import "Organisms/Footer";
-@import "Organisms/Navigation";
-@import "Organisms/ScrollableArticle";
+
 
 // Layouts
-@import "Layouts/Home";
+
+
