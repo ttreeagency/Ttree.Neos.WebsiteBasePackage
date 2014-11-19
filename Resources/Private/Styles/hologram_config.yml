@@ -1,0 +1,21 @@
+
+source: .
+
+destination: ../../Public/StyleGuide
+
+documentation_assets: ../../Public/Vendors/Cortana
+
+index: README
+
+dependencies:
+  - ../../Public/Styles
+  - ../../Public/Vendors
+  - ../../Public/Scripts
+
+css_include:
+  - 'Styles/Site.css'
+
+js_include:
+  - 'Vendors/jquery/dist/jquery.min.js'
+  - 'Vendors/foundation/js/foundation.min.js'
+  - 'Scripts/Site.js'
